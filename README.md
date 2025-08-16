@@ -1,50 +1,67 @@
-# Rice Variety Classification with PyTorch
+# PyTorch Sequential Tutorial
 
-This project demonstrates how to classify rice with PyTorch. The workflow includes data preprocessing, model building, training, evaluation, and inference.
+This repository contains a tutorial on how to use **\`nn.Sequential\`** in PyTorch.  
+The main script is provided as a Jupyter Notebook: **\`sequential.ipynb\`**.
 
-## Features
+---
 
-- **Dataset Loading:** Loads and preprocesses rice data from a csv file.
-- **Model Architecture:** Implements a custom neural network for classification.
-- **Training Loop:** Trains the model with validation and tracks accuracy.
-- **Evaluation:** Tests the model on unseen data and reports performance metrics.
-- **Inference:** Predicts rice variety from new samples.
+## 📂 Project Structure
+\`\`\`
+├── sequential.ipynb       # Main tutorial notebook
+├── requirements.txt       # Dependencies for running the project
+├── README.md              # Project documentation
+\`\`\`
 
-## Getting Started
+---
 
-1. **Clone the repository and install dependencies:**
-    ```bash
-    git clone <repo-url>
-    cd Rice-Classification-Pytorch
-    pip install -r requirements.txt
-    ```
+## ⚡ Features
+- Introduction to PyTorch’s \`nn.Sequential\`
+- Building deep learning models step by step
+- Comparison between custom \`nn.Module\` classes and \`nn.Sequential\`
+- Training loop examples with accuracy and loss tracking
 
-2. **Run the notebook:**
-    Open `classify_rice.ipynb` in Jupyter Notebook or VS Code and follow the steps.
+---
 
-## Directory Structure
+## 🔧 Installation
+Clone this repository and install the required dependencies:
 
-```
-.
-├── classify_rice.ipynb
-├── README.md
-└── rice_Classification.csv
-└── .gitignore
-```
+\`\`\`bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install -r requirements.txt
+\`\`\`
 
-## Requirements
+---
 
-- Python 3.8+
-- PyTorch
-- pandas
-- scikit-learn
-- matplotlib
-- torchinfo
+## ▶️ Usage
+Open the Jupyter notebook and run the cells:
 
-## Results
+\`\`\`bash
+jupyter notebook sequential.ipynb
+\`\`\`
 
-The model achieves high accuracy in classifying rice varieties. See the notebook for detailed results and visualizations.
+---
 
-## References
+## 📘 Requirements
+The dependencies are listed in **\`requirements.txt\`**, including:
+- torch
+-torchinfo
+- jupyter
 
-- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+---
+
+## 🎯 Learning Outcome
+By the end of this tutorial, you will understand:
+- How \`nn.Sequential\` works in PyTorch
+- When to use \`nn.Sequential\` vs. custom models
+- How to simplify model definitions in deep learning projects
+
+---
+
+## 📝 License
+This project is for educational purposes.  
+Feel free to fork and modify it for your own learning or tutorials.
+
+---
+
+🚀 Happy Learning with PyTorch!  
