@@ -6,11 +6,11 @@ The main script is provided as a Jupyter Notebook: **\`sequential.ipynb\`**.
 ---
 
 ## 📂 Project Structure
-\`\`\`
+
 ├── sequential.ipynb       # Main tutorial notebook
 ├── requirements.txt       # Dependencies for running the project
 ├── README.md              # Project documentation
-\`\`\`
+
 
 ---
 
@@ -18,7 +18,7 @@ The main script is provided as a Jupyter Notebook: **\`sequential.ipynb\`**.
 - Introduction to PyTorch’s \`nn.Sequential\`
 - Building deep learning models step by step
 - Comparison between custom \`nn.Module\` classes and \`nn.Sequential\`
-- Training loop examples with accuracy and loss tracking
+
 
 ---
 
@@ -26,8 +26,8 @@ The main script is provided as a Jupyter Notebook: **\`sequential.ipynb\`**.
 Clone this repository and install the required dependencies:
 
 \`\`\`bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Tech-Watt/Pytorch-nn.Sequential.git
+cd Pytorch-nn.Sequential
 pip install -r requirements.txt
 \`\`\`
 
@@ -65,3 +65,4 @@ Feel free to fork and modify it for your own learning or tutorials.
 ---
 
 🚀 Happy Learning with PyTorch!  
+
